@@ -1,0 +1,20 @@
+﻿name: AzureDevOps Workflow
+
+on:
+ push:
+   branches:
+     - main
+ pull_request:
+   branches:
+     -main
+
+ jobs:
+   build:
+      runs-on: windows-latest
+      steps:
+      - name: Azurepipeline
+        uses: Azure/pipeline@v2
+        with:
+          azure-devops-project-url: https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010
+          azure-pipeline-name: 'AzDevOps2000.WebApplicationnew'
+          azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
