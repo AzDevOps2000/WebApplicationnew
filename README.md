@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_apis/build/status%2FAzDevOps2000.WebApplicationnew?branchName=master)](https://dev.azure.com/AzDevOpsorg8010/buildpipeline8010/_build/latest?definitionId=2&branchName=master)
